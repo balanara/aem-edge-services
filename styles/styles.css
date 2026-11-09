@@ -13,6 +13,7 @@
 :root {
   /* colors */
   --background-color: white;
+  --background-color-eds: greenyellow;
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
@@ -99,11 +100,7 @@ footer .footer[data-block-status="loaded"] {
 }
 
 header {
-  background-color: greenyellow;
-}
-
-header .header-wrapper {
-  background-color: greenyellow;
+  background-color: var(--background-color-eds1);
 }
 
 h1,
