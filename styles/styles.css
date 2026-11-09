@@ -86,7 +86,6 @@ body.appear {
 
 header {
   height: var(--nav-height);
-  background-color: greenyellow;
 }
 
 header .header,
@@ -97,6 +96,10 @@ footer .footer {
 header .header[data-block-status="loaded"],
 footer .footer[data-block-status="loaded"] {
   visibility: visible;
+}
+
+header .header-wrapper {
+  background-color: greenyellow;
 }
 
 h1,
