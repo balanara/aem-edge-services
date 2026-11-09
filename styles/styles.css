@@ -98,6 +98,10 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
+header {
+  background-color: greenyellow;
+}
+
 header .header-wrapper {
   background-color: greenyellow;
 }
