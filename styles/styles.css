@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --background-color: white;
+  --background-color: white
   --background-color-eds: grey;
   --light-color: #f8f8f8;
   --dark-color: #505050;
@@ -87,6 +87,7 @@ body.appear {
 
 header {
   height: var(--nav-height);
+  background-color: greenyellow;
 }
 
 header .header,
@@ -97,14 +98,6 @@ footer .footer {
 header .header[data-block-status="loaded"],
 footer .footer[data-block-status="loaded"] {
   visibility: visible;
-}
-
-header {
-  background-color: var(--background-color-eds);
-}
-
-header .header-wrapper {
-  background-color: var(--background-color-eds);
 }
 
 h1,
